@@ -1,0 +1,11 @@
+This project contains both the Java and Scala application written for the Play Framework Essentials book.
+
+The `pfe-java` directory contains the Java version, the `pfe-scala` directory contains the Scala version.
+
+Both are sbt projects, just install sbt (see http://www.scala-sbt.org for instructions) and use it to manage the project. They also work with activator.
+
+To manage a project, open a command-line shell, go to the `pfe-java` or `pfe-scala` directory and run the `sbt` command (or `activator`). Then execute usual sbt commands such as `run` or `test`:
+
+$ cd pfe-scala
+$ sbt
+[pfe-scala] $ run

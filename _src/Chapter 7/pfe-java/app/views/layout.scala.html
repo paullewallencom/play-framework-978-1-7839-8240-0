@@ -1,0 +1,13 @@
+@(content: Html)
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shop — Play Framework Essentials</title>
+        <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/shop.css")"/>
+        <link rel="favicon" href="@routes.Assets.versioned("images/favicon.png")"/>
+    </head>
+    <body>
+        <h1><a href="@routes.Items.list()">Shop</a></h1>
+        @content
+    </body>
+</html>
